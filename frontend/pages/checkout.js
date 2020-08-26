@@ -15,7 +15,7 @@ function Checkout() {
   const { isAuthenticated } = appContext;
 
   // load stripe to inject into elements components
-  const stripePromise = loadStripe("YOUR STRIPE PUBLIC (pk_) KEY");
+  const stripePromise = loadStripe("pk_test_51HKGCGIoGa6MR0kz954GwsYButA2bUvT2F6a4NAX6126GJnoqm7tPmArZM1hcvF0zFafIX89j3ZfMFlATOVZzEhb00uO8nqG93");
 
   return (
     <Row>
